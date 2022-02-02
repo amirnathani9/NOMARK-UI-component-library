@@ -1,0 +1,58 @@
+#home-section{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), var(--primary-color)), url("/assests/background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.nomark-logo{
+    width: 100%;
+    max-width: 14rem;
+}
+.dark-mode-icon{
+    color: var(--text-color-1);
+    border: 2px solid transparent;
+}
+.home-main-container{
+    width: 100%;
+    height: 70vh;
+    color: var(--text-color-1);
+}
+.home-main-container h1{
+    font-size: 4rem;
+}
+.home-main-img{
+    width: 100%;
+    max-width: 22rem;
+}
+.home-main-container p{
+    width: 60%;
+    line-height: 1.5;
+}
+.home-main-btn{
+    background-color: transparent;
+    border: 2px solid var(--bg-color-1);
+    cursor: pointer;
+}
+.home-main-btn a{
+    color: var(--text-color-1);
+}
+
+/* hover */
+.dark-mode-icon:hover{
+    border: 2px solid var(--primary-color);
+    border-radius: 2px;
+    color: var(--primary-color);
+}
+.home-main-btn:hover{
+    transform: scale(1.1);
+}
+
+/* media query */
+@media only screen and (max-width: 480px) {
+    .home-btn{
+        flex-direction: column;
+    }
+    .home-main-container{
+        height: 80vh;
+    }
+}
