@@ -1,0 +1,69 @@
+/* top navbar */
+.navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--bg-color-1);
+}
+
+.nomark-logo {
+    width: 100%;
+    max-width: 14rem;
+}
+
+.humburger-icon {
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+/* side navbar */
+.sidebar {
+    position: fixed;
+    min-width: 30vh;
+    line-height: 3rem;
+    background-color: var(--bg-color-1);
+    height: 100vh;
+    transition: 1s ease-in-out;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.sidebar-heading,
+.sidebar-items {
+    color: var(--primary-color);
+}
+
+.sidebar-items {
+    padding: 8px 20px 8px 7px;
+    cursor: pointer;
+}
+
+/* side bar classes to show and hide the navbar */
+.sidebarRemove {
+    transform: translateX(-200%);
+    transition: 1s ease-in-out;
+}
+
+.displayNone {
+    display: none;
+}
+
+/* active class for items */
+.active {
+    border-left: 4px solid var(--primary-color);
+    border-radius: 2px;
+}
+
+/* hover */
+.humburger-icon:hover {
+    transform: scale(1.1);
+}
+
+.sidebar-items:hover {
+    background-color: var(--primary-color);
+    color: var(--text-color-1);
+    border-left: 4px solid var(--secondary-color);
+    border-radius: 2px;
+}

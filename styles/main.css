@@ -7,10 +7,9 @@
 @import "./reset.css";
 @import "./utility.css";
 @import "./variable.css";
-
-
-
-
+@import "./navigation.css";
+@import "./common.css";
+@import "./snippet.css";
 
 
 
