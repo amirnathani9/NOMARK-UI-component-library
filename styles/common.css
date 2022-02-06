@@ -20,3 +20,31 @@
 .scroll-style::-webkit-scrollbar-thumb:hover {
     background: var(--secondary-color);
   }
+
+/* component container */
+
+.component-container{
+  border: 1px solid var(--primary-color);
+}
+.component-heading{
+  border-bottom: 1px solid var(--primary-color);
+  line-height: 2;
+}
+
+.component-display{
+  width: 100%;
+  background-color: var(--bg-color-3);
+  align-items: center;
+}
+
+/* to make a image round */
+
+.image-round{
+  border-radius: 50%;
+}
+
+.display-item-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

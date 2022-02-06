@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Aamir Nathani" />
+    <title>Avatar - NOMARK UI</title>
+    <link rel="icon" href="../../assests/icon-logo.png">
+    
+    <!-- External Imports -->
+    <link rel="stylesheet" href="./avatar.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+
+</head>
+
+<body>
+    <section class="section-center">
+        <!-- navbar -->
+        <nav class="navbar flex items-center justify-between pt-1 section-center z-5">
+            <a class="humburger-icon icon-open text-lg"><i class="fas fa-bars ml-5"></i></a>
+            <a class="humburger-icon icon-close text-lg displayNone"><i class="fas fa-bars ml-5"></i></a>
+            <a href="../../index.html" class="mr-5"><img src="../../assests/logo-primary.png" alt="NOMARK" class="nomark-logo"></a>
+        </nav>
+        <!-- side-bar -->
+        <div class="sidebar sidebarRemove flex flex-col scroll-style z-4 pr-7 p-2">
+            <h3 class="sidebar-heading text-lg">Getting Started</h3>
+            <ul>
+                <li><a href="../../documentation/doc.html" class="sidebar-items">Installation</a></li>
+            </ul>
+            <h3 class="sidebar-heading text-lg">Components</h3>
+            <ul>
+                <li><a href="./avatar.html" class="sidebar-items active">Avatar</a></li>
+                <li><a href="" class="sidebar-items">Alert</a></li>
+                <li><a href="../badge/badge.html" class="sidebar-items">Badge</a></li>
+                <li><a href="" class="sidebar-items">Button</a></li>
+                <li><a href="" class="sidebar-items">Card</a></li>
+                <li><a href="" class="sidebar-items">Modal</a></li>
+            </ul>
+        </div>
+        <!-- Square Avatar -->
+        <main class="click-remove my-7">
+            <div class="m-2">
+                <h2 class="text-xl font-bolder">Avatar</h2>
+                <p class="text-ml py-5">Avatar is used to represent the users profile picture.</p>
+            </div>
+            <div class="component-container flex flex-col">
+                <div class="component-heading p-2">
+                <h3 class="font-bold text-lg">Square Avatar</h3>
+                <p>Square Avatar has 5 different sizes you can use avatar-sm for small image, avatar-md for medium, avatar-lg for large and so onn. </p>
+            </div>
+                <div class="component-display flex justify-center p-5">
+                    <figure>
+                        <img src="../../assests/avatar.jpg" alt="avatar" class="avatar-sm m-4">
+                    </figure>
+                    <figure>
+                        <img src="../../assests/avatar.jpg" alt="avatar" class="avatar-md m-4">
+                    </figure>
+                    <figure>
+                        <img src="../../assests/avatar.jpg" alt="avatar" class="avatar-lg m-4">
+                    </figure>
+                    <figure>
+                        <img src="../../assests/avatar.jpg" alt="avatar" class="avatar-xl m-4">
+                    </figure>
+                    <figure>
+                        <img src="../../assests/avatar.jpg" alt="avatar" class="avatar-xxl m-4">
+                    </figure>
+                </div>
+                <!-- code-snippet  -->
+                <pre id="myInput" class="relative scroll-style">
+                        <code class="language-html"> &lt;figure&gt;
+                            &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;&quot; class=&quot;avatar-sm m-4&quot;&gt;
+                        &lt;/figure&gt;
+                        &lt;figure&gt;
+                            &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;&quot; class=&quot;avatar-md m-4&quot;&gt;
+                        &lt;/figure&gt;
+                        &lt;figure&gt;
+                            &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;&quot; class=&quot;avatar-lg m-4&quot;&gt;
+                        &lt;/figure&gt;
+                        &lt;figure&gt;
+                            &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;&quot; class=&quot;avatar-xl m-4&quot;&gt;
+                        &lt;/figure&gt;
+                        &lt;figure&gt;
+                            &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;&quot; class=&quot;avatar-xxl m-4&quot;&gt;
+                        &lt;/figure&gt;
+                        </code><button id="button" class="absolute snippet-btn"><i class="fas fa-copy"></i></button></pre>
+            </div>
+        </main>
+        <!-- Round Avatar -->
+        <main class="click-remove my-7">
+            <div class="component-container flex flex-col">
+                <div class="component-heading p-2">
+                    <h3 class="font-bold text-lg">Round Avatar</h3>
+                    <p>Round Avatar has also 5 sizes.To make the square avatar to round you can use image-round class in image tag.</p>
+                </div>
+                <div class="component-display flex justify-center p-5">
+                    <figure>
+                        <img src="../../assests/avatar.jpg" alt="avatar" class="avatar-sm image-round m-4">
+                    </figure>
+                    <figure>
+                        <img src="../../assests/avatar.jpg" alt="avatar" class="avatar-md image-round m-4">
+                    </figure>
+                    <figure>
+                        <img src="../../assests/avatar.jpg" alt="avatar" class="avatar-lg image-round m-4">
+                    </figure>
+                    <figure>
+                        <img src="../../assests/avatar.jpg" alt="avatar" class="avatar-xl image-round m-4">
+                    </figure>
+                    <figure>
+                        <img src="../../assests/avatar.jpg" alt="avatar" class="avatar-xxl image-round m-4">
+                    </figure>
+                </div>
+
+                <!-- code-snippet  -->
+                <pre id="myInput" class="relative scroll-style">
+                        <code class="language-html">&lt;figure&gt;
+                            &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;&quot; class=&quot;avatar-sm image-round m-4&quot;&gt;
+                        &lt;/figure&gt;
+                        &lt;figure&gt;
+                            &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;&quot; class=&quot;avatar-md image-round m-4&quot;&gt;
+                        &lt;/figure&gt;
+                        &lt;figure&gt;
+                            &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;&quot; class=&quot;avatar-lg image-round m-4&quot;&gt;
+                        &lt;/figure&gt;
+                        &lt;figure&gt;
+                            &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;&quot; class=&quot;avatar-xl image-round m-4&quot;&gt;
+                        &lt;/figure&gt;
+                        &lt;figure&gt;
+                            &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;&quot; class=&quot;avatar-xxl image-round m-4&quot;&gt;
+                        &lt;/figure&gt;
+                        </code><button id="button" class="absolute snippet-btn"><i class="fas fa-copy"></i></button></pre>
+            </div>
+        </main>
+        <div id="copiedSnackbar" class="absolute font-ml">Copied!</div>
+    </section>
+
+    <!-- navbar and snippet scripts -->
+    <script src="../../script/navigation.js"></script>
+    <script src="../../script/snippet.js"></script>
+    <!-- highlight js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"
+        integrity="sha512-IaaKO80nPNs5j+VLxd42eK/7sYuXQmr+fyywCNA0e+C6gtQnuCXNtORe9xR4LqGPz5U9VpH+ff41wKs/ZmC3iA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+</body>
+</html>

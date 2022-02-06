@@ -1,0 +1,79 @@
+
+/* badge width height */
+.badge-wh-1{
+    height: 0.75rem;
+    width: 0.75rem;
+    border-radius: 50%;
+    border: 2px solid var(--bg-color-3);
+}
+.badge-wh-2{
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    border: 2px solid var(--bg-color-3);
+}
+.badge-wh-3{
+    height: 1.25rem;
+    width: 1.25rem;
+    border-radius: 50%;
+    border: 2px solid var(--bg-color-3);
+}
+.badge-wh-4{
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    border: 2px solid var(--bg-color-3); 
+}
+.badge-wh-5{
+    height: 1.75rem;
+    width: 1.75rem;
+    border-radius: 50%;
+    border: 2px solid var(--bg-color-3); 
+}
+/* badge color */
+.offline-badge{
+    background-color: var(--offline-color);
+    color: var(--text-color-1);
+}
+.online-badge{
+    background-color: var(--online-color);
+    color: var(--text-color-1);
+}
+
+/* position of badges on round image or icon */
+.badge-position-round-br{
+    right: 0px;
+    bottom: 0px;
+}
+
+.badge-position-round-tr{
+    right: 0px;
+    top: 0px;
+}
+.badge-position-round-tl{
+    left: 0px;
+    top: 0px;
+}
+.badge-position-round-bl{
+    left: 0px;
+    bottom: 0px;
+}
+
+/* badge position for square */
+
+.badge-position-square-tr{
+    top: -20%;
+    right: -20%;
+}
+.badge-position-square-br{
+    bottom: -20%;
+    right: -20%;
+}
+.badge-position-square-tl{
+    top: -20%;
+    left: -20%;
+}
+.badge-position-square-bl{
+    bottom: -20%;
+    left: -20%;
+}
