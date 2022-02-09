@@ -8,4 +8,10 @@
     --text-color-2: #000000;
     --offline-color:#ff0000;
     --online-color:#31d300;
+    --success-color: #ace0c9;
+    --success-dark-color: #0aa05a;
+    --danger-color: #f8d7da;
+    --danger-dark-color: #85121b;
+    --warning-color: #fff3cd;
+    --warning-dark-color: #947005;
 }
