@@ -1,0 +1,23 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+.input-label {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 3px;
+    color: var(--primary-color);
+}
+.input {
+    margin: 3px;
+    padding: 5px;
+    width: 20rem;
+    outline: none;
+    border-color: var(--primary-color);
+}
+.label-error{
+    color: var(--danger-dark-color);
+}
+.input-error{
+    border-color: var(--danger-dark-color) ;
+}

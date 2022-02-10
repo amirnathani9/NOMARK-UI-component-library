@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Aamir Nathani" />
-    <title>Image - NOMARK UI</title>
+    <title>Input - NOMARK UI</title>
     <link rel="icon" href="../../assests/icon-logo.png">
 
     <!-- External Imports -->
-    <link rel="stylesheet" href="./image.css">
+    <link rel="stylesheet" href="./input.css">
     <link rel="stylesheet" href="../../styles/main.css">
 
 </head>
@@ -37,48 +37,59 @@
                 <li><a href="../badge/badge.html" class="sidebar-items">Badge</a></li>
                 <li><a href="../button/button.html" class="sidebar-items">Button</a></li>
                 <li><a href="../card/card.html" class="sidebar-items">Card</a></li>
-                <li><a href="./image.html" class="sidebar-items active">Image</a></li>
-                <li><a href="../input/input.html" class="sidebar-items">Input</a></li>
+                <li><a href="../image/image.html" class="sidebar-items">Image</a></li>
+                <li><a href="./input.html" class="sidebar-items active">Input</a></li>
             </ul>
         </div>
-        <!-- Responsive Image -->
+        <!-- Default Input -->
         <div class="click-remove">
             <section class="my-7">
                 <div class="m-2">
-                    <h2 class="text-xl font-bolder">Responsive-Image</h2>
-                    <p class="text-ml py-5">Responsive Image Components are used to dsiplay Images on websites, which are screen responsive.</p>
+                    <h2 class="text-xl font-bolder">Input</h2>
+                    <p class="text-ml py-5">Inputs are used to take information from the user, and then save the data to the server, accordingly.</p>
                 </div>
                 <div class="component-container flex flex-col">
                     <div class="component-heading p-2">
-                        <h3 class="font-bold text-lg">Full-Width Image</h3>
-                        <p>Full-Width Image is set according to your container width. To use the Full-Width responsive image, add <strong class="font-bold">responsive-img</strong> class in your img tag.</p>
+                        <h3 class="font-bold text-lg">Input</h3>
+                        <p>Default input has label and input in it. Only you have to copy the below code to use the input</p>
                     </div>
                     <div class="component-display flex justify-center p-5">
-                        <div class="image-container">
-                            <img src="../../assests/image.jpg" alt="watch" class="responsive-img">
+                        <div class="input-container">
+                            <label class="input-label">Username*</label>
+                            <input type="text" placeholder="Enter your username" class="input">
                         </div>
                     </div>
                     <!-- code-snippet  -->
                     <pre id="myInput" class="relative scroll-style"><code class="language-html">
-                            &lt;img src=&quot;../../assests/image.jpg&quot; alt=&quot;watch&quot; class=&quot;responsive-img&quot;&gt;
+                        &lt;div class=&quot;input-container&quot;&gt;
+                            &lt;label class=&quot;input-label&quot;&gt;Username*&lt;/label&gt;
+                            &lt;input type=&quot;text&quot; placeholder=&quot;Enter your username&quot; class=&quot;input&quot;&gt;
+                        &lt;/div&gt;
                         </code><button id="button" class="absolute snippet-btn"><i class="fas fa-copy"></i></button></pre>
                 </div>
             </section>
-            <!-- Round Image -->
+            <!-- Input Error -->
             <section class="my-7">
                 <div class="component-container flex flex-col">
                     <div class="component-heading p-2">
-                        <h3 class="font-bold text-lg">Rounded Image</h3>
-                        <p>Rounded Image work according to your container width. To use rounded image add <strong class="font-bold">round-img</strong> class in your img tag.</p>
+                        <h3 class="font-bold text-lg">Error Input</h3>
+                        <p>In Error Input you have to put two classes in default input.</p>
+                        <p><strong class="font-bold">label-error</strong> class in label tag</p>
+                        <p><strong class="font-bold">input-error</strong> class in input tag</p>
+
                     </div>
                     <div class="component-display flex justify-center p-5">
-                        <div class="image-container">
-                            <img src="../../assests/image.jpg" alt="watch" class="round-img">
+                        <div class="input-container">
+                            <label class="input-label label-error">Password*</label>
+                            <input type="text" placeholder="Enter your username" class="input input-error">
                         </div>
                     </div>
                     <!-- code-snippet  -->
                     <pre id="myInput" class="relative scroll-style"><code class="language-html">
-                            &lt;img src=&quot;../../assests/image.jpg&quot; alt=&quot;watch&quot; class=&quot;round-img&quot;&gt;
+                            &lt;div class=&quot;input-container&quot;&gt;
+                            &lt;label class=&quot;input-label label-error&quot;&gt;Password*&lt;/label&gt;
+                            &lt;input type=&quot;text&quot; placeholder=&quot;Enter your username&quot; class=&quot;input input-error&quot;&gt;
+                        &lt;/div&gt;
                         </code><button id="button" class="absolute snippet-btn"><i class="fas fa-copy"></i></button></pre>
                 </div>
             </section>
