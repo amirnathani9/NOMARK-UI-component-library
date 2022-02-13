@@ -1,3 +1,9 @@
+.btn{
+    padding: 1rem;
+    margin: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
 .primary-btn{
     background-color: var(--primary-color);
     color: var(--text-color-1);
