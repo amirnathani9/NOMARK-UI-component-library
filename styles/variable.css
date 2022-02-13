@@ -1,9 +1,9 @@
 :root {
     --primary-color: #028195;    
     --secondary-color: #B9D7DB;
-    --bg-color-3:#f2f9fa;
     --bg-color-1:#ffffff;
     --bg-color-2:#000000;
+    --bg-color-3:#f2f9fa;
     --text-color-1: #ffffff;
     --text-color-2: #000000;
     --offline-color:#ff0000;
@@ -14,4 +14,6 @@
     --danger-dark-color: #85121b;
     --warning-color: #fff3cd;
     --warning-dark-color: #947005;
+    --transparent-color-1:rgba(2, 129, 149, 0.5);
+    --transparent-color-2: rgba(0, 0, 0, 0.5);
 }
