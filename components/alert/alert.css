@@ -12,13 +12,15 @@
 }
 .success-alert{
     background-color: var(--success-color);
-    
+    color: var(--success-dark-color);
 }
 .warning-alert{
     background-color: var(--warning-color);
+    color: var(--warning-dark-color);
 }
 .danger-alert{
     background-color: var(--danger-color);
+    color: var(--danger-dark-color);
 }
 
 .primary-outline-alert{
