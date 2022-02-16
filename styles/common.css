@@ -40,7 +40,11 @@
 /* to make a image round */
 
 .border-round{
-  border-radius: 50%;
+    max-width: 100%;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    height: fit-content;
+    width: fit-content;
 }
 
 .display-item-center{
