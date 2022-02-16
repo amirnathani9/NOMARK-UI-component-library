@@ -19,17 +19,17 @@
     <section class="section-center">
         <!-- navbar -->
         <nav class="navbar flex items-center justify-between pt-1 section-center z-5">
-            <a class="humburger-icon icon-open text-lg"><i class="fas fa-bars ml-5"></i></a>
-            <a class="humburger-icon icon-close text-lg displayNone"><i class="fas fa-bars ml-5"></i></a>
+            <a class="humburger-icon icon-open font-size-6"><i class="fas fa-bars ml-5"></i></a>
+            <a class="humburger-icon icon-close font-size-6 displayNone"><i class="fas fa-bars ml-5"></i></a>
             <a href="../../index.html" class="mr-5"><img src="../../assests/logo-primary.png" alt="NOMARK" class="nomark-logo"></a>
         </nav>
         <!-- side-bar -->
         <div class="sidebar sidebarRemove flex flex-col scroll-style z-4 pr-7 p-2">
-            <h3 class="sidebar-heading text-lg">Getting Started</h3>
+            <h3 class="sidebar-heading font-size-5">Getting Started</h3>
             <ul>
                 <li><a href="../../documentation/doc.html" class="sidebar-items">Installation</a></li>
             </ul>
-            <h3 class="sidebar-heading text-lg">Components</h3>
+            <h3 class="sidebar-heading font-size-5">Components</h3>
             <ul>
                 <li><a href="../avatar/avatar.html" class="sidebar-items">Avatar</a></li>
                 <li><a href="../alert/alert.html" class="sidebar-items ">Alert</a></li>
@@ -46,13 +46,13 @@
         <!--Badge  -->
         <main class="click-remove my-7">
             <div class="m-2">
-                <h2 class="text-xl font-bolder">Badge</h2>
-                <p class="text-ml py-5">Badge is used to highlight an Items Status.</p>
+                <h2 class="font-size-8 font-bolder">Badge</h2>
+                <p class="font-size-5 py-5">Badge is used to highlight an Items Status.</p>
             </div>
             <!-- Badge on Image -->
             <div class="component-container flex flex-col">
                 <div class="component-heading p-2">
-                    <h3 class="font-bold text-lg">Badge on Avatar</h3>
+                    <h3 class="font-bold font-size-6">Badge on Avatar</h3>
                     <p>In Badge on you can use the class <strong class="font-bold">badge-wh-1</strong> for the size of badge.Starts from 1 and end to 5. </p>
                     <p>For badge color you can use two colors <strong class="font-bold">offline-badge and online-badge</strong></p>
                     <p>For Round Avatar, Image or Icon it has 4 position bottom right, top right, bottom left and top left. Can use this class <strong class="font-bold">badge-position-round-br, badge-position-round-tr, badge-position-round-bl and badge-position-round-tl.</strong> </p>
@@ -61,56 +61,56 @@
 
                 <div class="component-display flex justify-center p-5 gap-3">
                     <figure class="relative">
-                        <img src="../../assests/avatar.jpg" alt="avatar" class="avatar-sm image-round">
+                        <img src="../../assests/avatar.jpg" alt="avatar" class="avatar-sm border-round">
                         <span class="badge-wh-1 offline-badge absolute badge-position-round-br"></span>
                     </figure>
                     <figure class="relative">
-                        <img src="../../assests/avatar.jpg" alt="avatar" class="avatar-md image-round">
+                        <img src="../../assests/avatar.jpg" alt="avatar" class="avatar-md border-round">
                         <span class="badge-wh-2 online-badge absolute badge-position-round-tr"></span>
                     </figure>
                     <figure class="relative">
-                        <img src="../../assests/avatar.jpg" alt="avatar" class="avatar-lg image-round">
+                        <img src="../../assests/avatar.jpg" alt="avatar" class="avatar-lg border-round">
                         <span class="badge-wh-2 offline-badge absolute badge-position-round-bl"></span>
                     </figure>
                     <figure class="relative">
-                        <img src="../../assests/avatar.jpg" alt="avatar" class="avatar-xl image-round">
+                        <img src="../../assests/avatar.jpg" alt="avatar" class="avatar-xl border-round">
                         <span class="badge-wh-3 online-badge absolute display-item-center badge-position-round-tl">3</span>
                     </figure>
                     <figure class="relative">
-                        <img src="../../assests/avatar.jpg" alt="avatar" class="avatar-xxl image-round ">
+                        <img src="../../assests/avatar.jpg" alt="avatar" class="avatar-xxl border-round ">
                         <span class="badge-wh-4 offline-badge absolute display-item-center badge-position-round-br">5</span>
                     </figure>
                 </div>
                 <!-- code-snippet  -->
-                <pre id="myInput" class="relative scroll-style">
-                                    <code class="language-html">&lt;figure class=&quot;relative&quot;&gt;
-                                        &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;&quot; class=&quot;avatar-sm image-round&quot;&gt;
-                                        &lt;span class=&quot;badge-wh-1 offline-badge absolute badge-position-round-br&quot;&gt;&lt;/span&gt;
-                                    &lt;/figure&gt;
-                                    &lt;figure class=&quot;relative&quot;&gt;
-                                        &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;&quot; class=&quot;avatar-md image-round&quot;&gt;
-                                        &lt;span class=&quot;badge-wh-2 online-badge absolute badge-position-round-tr&quot;&gt;&lt;/span&gt;
-                                    &lt;/figure&gt;
-                                    &lt;figure class=&quot;relative&quot;&gt;
-                                        &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;&quot; class=&quot;avatar-lg image-round&quot;&gt;
-                                        &lt;span class=&quot;badge-wh-2 offline-badge absolute badge-position-round-bl&quot;&gt;&lt;/span&gt;
-                                    &lt;/figure&gt;
-                                    &lt;figure class=&quot;relative&quot;&gt;
-                                        &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;&quot; class=&quot;avatar-xl image-round&quot;&gt;
-                                        &lt;span class=&quot;badge-wh-3 online-badge absolute display-item-center badge-position-round-tl&quot;&gt;3&lt;/span&gt;
-                                    &lt;/figure&gt;
-                                    &lt;figure class=&quot;relative&quot;&gt;
-                                        &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;&quot; class=&quot;avatar-xxl image-round &quot;&gt;
-                                        &lt;span class=&quot;badge-wh-4 offline-badge absolute display-item-center badge-position-round-br&quot;&gt;5&lt;/span&gt;
-                                    &lt;/figure&gt;
-                                    </code><button id="button" class="absolute snippet-btn"><i class="fas fa-copy"></i></button></pre>
+                <pre id="myInput" class="relative scroll-style"><code class="language-html">
+        &lt;figure class=&quot;relative&quot;&gt;
+            &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;&quot; class=&quot;avatar-sm border-round&quot;&gt;
+            &lt;span class=&quot;badge-wh-1 offline-badge absolute badge-position-round-br&quot;&gt;&lt;/span&gt;
+        &lt;/figure&gt;
+        &lt;figure class=&quot;relative&quot;&gt;
+            &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;&quot; class=&quot;avatar-md border-round&quot;&gt;
+            &lt;span class=&quot;badge-wh-2 online-badge absolute badge-position-round-tr&quot;&gt;&lt;/span&gt;
+        &lt;/figure&gt;
+        &lt;figure class=&quot;relative&quot;&gt;
+            &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;&quot; class=&quot;avatar-lg border-round&quot;&gt;
+            &lt;span class=&quot;badge-wh-2 offline-badge absolute badge-position-round-bl&quot;&gt;&lt;/span&gt;
+        &lt;/figure&gt;
+        &lt;figure class=&quot;relative&quot;&gt;
+            &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;&quot; class=&quot;avatar-xl border-round&quot;&gt;
+            &lt;span class=&quot;badge-wh-3 online-badge absolute display-item-center badge-position-round-tl&quot;&gt;3&lt;/span&gt;
+        &lt;/figure&gt;
+        &lt;figure class=&quot;relative&quot;&gt;
+            &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;&quot; class=&quot;avatar-xxl border-round &quot;&gt;
+            &lt;span class=&quot;badge-wh-4 offline-badge absolute display-item-center badge-position-round-br&quot;&gt;5&lt;/span&gt;
+        &lt;/figure&gt;
+                    </code><button id="button" class="absolute snippet-btn"><i class="fas fa-copy"></i></button></pre>
             </div>
         </main>
         <!-- Badge on Icon -->
         <main class="click-remove my-7">
             <div class="component-container flex flex-col">
                 <div class="component-heading p-2">
-                    <h3 class="font-bold text-lg">Badge on Icons</h3>
+                    <h3 class="font-bold font-size-6">Badge on Icons</h3>
                     <p>In Badge on Icon you can use the class <strong class="font-bold">badge-wh-1</strong> for the size of badge.Starts from 1 and end to 5. </p>
                     <p>For badge color you can use two colors <strong class="font-bold">offline-badge and online-badge</strong></p>
                     <p>For Square Avatar, Image or Icon it has 4 position bottom right, top right, bottom left and top left. Can use this class <strong  class="font-bold">badge-position-square-br, badge-position-square-tr, badge-position-square-bl and badge-position-square-tl.</strong> </p>
@@ -136,24 +136,24 @@
                     </div>
                 </div>
                 <!-- code-snippet  -->
-                <pre id="myInput" class="relative scroll-style">
-                                        <code class="language-html">&lt;div class=&quot;relative&quot;&gt;
-                                            &lt;i class=&quot;fab fa-whatsapp-square fa-2x&quot;&gt;&lt;/i&gt;
-                                            &lt;span class=&quot;badge-wh-1 online-badge absolute display-item-center badge-position-square-tr&quot;&gt;&lt;/span&gt;
-                                        &lt;/div&gt;
-                                        &lt;div class=&quot;relative&quot;&gt;
-                                            &lt;i class=&quot;fab fa-facebook-square fa-3x&quot;&gt;&lt;/i&gt;
-                                            &lt;span class=&quot;badge-wh-4 offline-badge absolute display-item-center badge-position-square-bl&quot;&gt;9+&lt;/span&gt;
-                                        &lt;/div&gt;
-                                        &lt;div class=&quot;relative&quot;&gt;
-                                            &lt;i class=&quot;fab fa-instagram-square fa-4x&quot;&gt;&lt;/i&gt;
-                                            &lt;span class=&quot;badge-wh-4 online-badge absolute display-item-center badge-position-square-br&quot;&gt;9+&lt;/span&gt;
-                                        &lt;/div&gt;
-                                        &lt;div class=&quot;relative&quot;&gt;
-                                            &lt;i class=&quot;fab fa-snapchat-square fa-5x&quot;&gt;&lt;/i&gt;
-                                            &lt;span class=&quot;badge-wh-5 online-badge absolute display-item-center badge-position-square-tr&quot;&gt;9+&lt;/span&gt;
-                                        &lt;/div&gt;
-                                        </code><button id="button" class="absolute snippet-btn"><i class="fas fa-copy"></i></button></pre>
+                <pre id="myInput" class="relative scroll-style"><code class="language-html">
+        &lt;div class=&quot;relative&quot;&gt;
+            &lt;i class=&quot;fab fa-whatsapp-square fa-2x&quot;&gt;&lt;/i&gt;
+            &lt;span class=&quot;badge-wh-1 online-badge absolute display-item-center badge-position-square-tr&quot;&gt;&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;relative&quot;&gt;
+            &lt;i class=&quot;fab fa-facebook-square fa-3x&quot;&gt;&lt;/i&gt;
+            &lt;span class=&quot;badge-wh-4 offline-badge absolute display-item-center badge-position-square-bl&quot;&gt;9+&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;relative&quot;&gt;
+            &lt;i class=&quot;fab fa-instagram-square fa-4x&quot;&gt;&lt;/i&gt;
+            &lt;span class=&quot;badge-wh-4 online-badge absolute display-item-center badge-position-square-br&quot;&gt;9+&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;relative&quot;&gt;
+            &lt;i class=&quot;fab fa-snapchat-square fa-5x&quot;&gt;&lt;/i&gt;
+            &lt;span class=&quot;badge-wh-5 online-badge absolute display-item-center badge-position-square-tr&quot;&gt;9+&lt;/span&gt;
+        &lt;/div&gt;
+                    </code><button id="button" class="absolute snippet-btn"><i class="fas fa-copy"></i></button></pre>
             </div>
         </main>
 

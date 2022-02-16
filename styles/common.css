@@ -39,8 +39,12 @@
 
 /* to make a image round */
 
-.image-round{
-  border-radius: 50%;
+.border-round{
+    max-width: 100%;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    height: fit-content;
+    width: fit-content;
 }
 
 .display-item-center{
