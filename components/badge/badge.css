@@ -1,4 +1,13 @@
-
+.badge{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.1rem;
+}
+.badge-container{
+    position: relative;
+}
 /* badge width height */
 .badge-wh-1{
     height: 0.75rem;
