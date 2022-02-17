@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Aamir Nathani" />
+    <title>Card - NOMARK UI</title>
+    <link rel="icon" href="../../assests/icon-logo.png">
+
+    <!-- External Imports -->
+    <link rel="stylesheet" href="./card.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+
+</head>
+
+<body>
+    <div class="section-center">
+        <!-- navbar -->
+        <nav class="navbar flex items-center justify-between pt-1 section-center z-5">
+            <a class="humburger-icon icon-open font-size-6"><i class="fas fa-bars ml-5"></i></a>
+            <a class="humburger-icon icon-close font-size-6 displayNone"><i class="fas fa-bars ml-5"></i></a>
+            <a href="../../index.html" class="mr-5"><img src="../../assests/logo-primary.png" alt="NOMARK"
+                    class="nomark-logo"></a>
+        </nav>
+        <!-- side-bar -->
+        <div class="sidebar sidebarRemove flex flex-col scroll-style z-4 pr-7 p-2">
+            <h3 class="sidebar-heading font-size-5">Getting Started</h3>
+            <ul>
+                <li><a href="../../documentation/doc.html" class="sidebar-items">Installation</a></li>
+            </ul>
+            <h3 class="sidebar-heading font-size-5">Components</h3>
+            <ul>
+                <li><a href="../avatar/avatar.html" class="sidebar-items">Avatar</a></li>
+                <li><a href="../alert/alert.html" class="sidebar-items">Alert</a></li>
+                <li><a href="../badge/badge.html" class="sidebar-items">Badge</a></li>
+                <li><a href="../button/button.html" class="sidebar-items">Button</a></li>
+                <li><a href="./card.html" class="sidebar-items active">Card</a></li>
+                <li><a href="../image/image.html" class="sidebar-items">Image</a></li>
+                <li><a href="../input/input.html" class="sidebar-items">Input</a></li>
+                <li><a href="../typography/typography.html" class="sidebar-items">Typography</a></li>
+                <li><a href="../list/list.html" class="sidebar-items">Lists</a></li>
+                <li><a href="../navigation/navigation.html" class="sidebar-items">Navigation</a></li>
+            </ul>
+        </div>
+        <!-- Card -->
+        <div class="click-remove">
+            <section class="my-7">
+                <div class="m-2">
+                    <h2 class="font-size-8 font-bolder">Card</h2>
+                    <p class="font-size-5 py-5">Card are used to show user related data collectively, like product details, blog details,etc</p>
+                </div>
+                <div class="component-container flex flex-col">
+                    <div class="component-heading p-2">
+                        <h3 class="font-bold font-size-6">Vertical Card</h3>
+                    </div>
+                    <!-- Vertical Card -->
+                    <div class="component-display flex justify-center p-5">
+                        <div class="card card-vertical">
+                            <div class="card-vertical-image">
+                                <img src="../../assests/card-image.jpeg" alt="watch" class="card-img">
+                                <i class="far fa-heart wishlist-icon"></i>
+                            </div>
+                            <div class="card-content">
+                                <div class="card-heading">
+                                    <h3>Tag Heuer-CR7</h3>
+                                    <p>Special Edition</p>
+                                </div>
+                                <div class="card-product-price">
+                                    <span class="product-discount-price">₹4,999.00</span><span
+                                        class="product-original-price">₹9,999.00</span>
+                                </div>
+                                <div class="product-discount-percent">50% Discount</div>
+                                <button class="card-btn"><i class="fas fa-shopping-cart card-btn-icon"></i>Add To
+                                    Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- code-snippet  -->
+                    <pre id="myInput" class="relative scroll-style"><code class="language-html">                       
+                        &lt;div class=&quot;card card-vertical&quot;&gt;
+                            &lt;div class=&quot;card-vertical-image&quot;&gt;
+                                &lt;img src=&quot;../../assests/card-image.jpeg&quot; alt=&quot;watch&quot; class=&quot;card-img&quot;&gt;
+                                &lt;i class=&quot;far fa-heart wishlist-icon&quot;&gt;&lt;/i&gt;
+                            &lt;/div&gt;
+                            &lt;div class=&quot;card-content&quot;&gt;
+                                &lt;div class=&quot;card-heading&quot;&gt;
+                                    &lt;h3&gt;Tag Heuer-CR7&lt;/h3&gt;
+                                    &lt;p&gt;The sports watch for everyday wear, the Tag Heuer CR7 Quartzs Chronograph is a
+                                        superb watch with beautiful styling.&lt;/p&gt;
+                                &lt;/div&gt;
+                                &lt;div class=&quot;card-product-price&quot;&gt;
+                                    &lt;span class=&quot;product-discount-price&quot;&gt;₹4,999.00&lt;/span&gt;&lt;span
+                                        class=&quot;product-original-price&quot;&gt;₹9,999.00&lt;/span&gt;
+                                &lt;/div&gt;
+                                &lt;div class=&quot;product-discount-percent&quot;&gt;50% Discount&lt;/div&gt;
+                                &lt;button class=&quot;card-btn&quot;&gt;&lt;i class=&quot;fas fa-shopping-cart card-btn-icon&quot;&gt;&lt;/i&gt;Add To
+                                    Cart&lt;/button&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        </code><button id="button" class="absolute snippet-btn"><i class="fas fa-copy"></i></button></pre>
+                </div>
+            </section>
+
+            <!-- vertical card with badge -->
+            <section class="my-7">
+                <div class="component-container flex flex-col">
+                    <div class="component-heading p-2">
+                        <h3 class="font-bold font-size-6">Card with Badge</h3>
+                    </div>
+                    <div class="component-display flex justify-center p-5">
+                        <div class="card card-vertical">
+                            <div class="card-vertical-image">
+                                <img src="../../assests/card-image.jpeg" alt="watches" class="card-img">
+                                <i class="far fa-heart wishlist-icon"></i>
+                                <span class="card-image-badge">Special Edition</span>
+                            </div>
+                            <div class="card-content">
+                                <div class="card-heading">
+                                    <h3>Tag Heuer-CR7</h3>
+                                    <p>The sports watch for everyday wear, the Tag Heuer CR7 Quartzs Chronograph is a
+                                        superb watch with beautiful styling.</p>
+                                </div>
+                                <div class="card-product-price">
+                                    <span class="product-discount-price">₹4,999.00</span><span
+                                        class="product-original-price">₹9,999.00</span>
+                                </div>
+                                <div class="product-discount-percent">50% Discount</div>
+                                <button class="card-btn"><i class="fas fa-shopping-cart card-btn-icon"></i>Add To
+                                    Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- code-snippet  -->
+                    <pre id="myInput" class="relative scroll-style"><code class="language-html">
+                        &lt;div class=&quot;card card-vertical&quot;&gt;
+                            &lt;div class=&quot;card-vertical-image&quot;&gt;
+                                &lt;img src=&quot;../../assests/card-image.jpeg&quot; alt=&quot;watches&quot; class=&quot;card-img&quot;&gt;
+                                &lt;i class=&quot;far fa-heart wishlist-icon&quot;&gt;&lt;/i&gt;
+                                &lt;span class=&quot;card-image-badge&quot;&gt;Special Edition&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;div class=&quot;card-content&quot;&gt;
+                                &lt;div class=&quot;card-heading&quot;&gt;
+                                    &lt;h3&gt;Tag Heuer-CR7&lt;/h3&gt;
+                                    &lt;p&gt;The sports watch for everyday wear, the Tag Heuer CR7 Quartzs Chronograph is a
+                                        superb watch with beautiful styling.&lt;/p&gt;
+                                &lt;/div&gt;
+                                &lt;div class=&quot;card-product-price&quot;&gt;
+                                    &lt;span class=&quot;product-discount-price&quot;&gt;₹4,999.00&lt;/span&gt;&lt;span
+                                        class=&quot;product-original-price&quot;&gt;₹9,999.00&lt;/span&gt;
+                                &lt;/div&gt;
+                                &lt;div class=&quot;product-discount-percent&quot;&gt;50% Discount&lt;/div&gt;
+                                &lt;button class=&quot;card-btn&quot;&gt;&lt;i class=&quot;fas fa-shopping-cart card-btn-icon&quot;&gt;&lt;/i&gt;Add To
+                                    Cart&lt;/button&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        </code><button id="button" class="absolute snippet-btn"><i class="fas fa-copy"></i></button></pre>
+                </div>
+            </section>
+            <!-- Card with Text Overlay -->
+            <section class="my-7">
+                <div class="component-container flex flex-col">
+                    <div class="component-heading p-2">
+                        <h3 class="font-bold font-size-6">Card with Text Overlay</h3>
+                    </div>
+                    <div class="component-display flex justify-center p-5">
+
+                        <div class="card card-vertical">
+                            <div class="card-text-overlay">
+                                <span>Out of Stock</span>
+                            </div>
+                            <div class="card-vertical-image">
+                                <img src="../../assests/card-image.jpeg" alt="watches" class="card-img">
+                                <i class="far fa-heart wishlist-icon"></i>
+                            </div>
+                            <div class="card-content">
+                                <div class="card-heading">
+                                    <h3>Tag Heuer-CR7</h3>
+                                    <p>The sports watch for everyday wear, the Tag Heuer CR7 Quartzs Chronograph is a
+                                        superb watch with beautiful styling.</p>
+                                </div>
+                                <div class="card-product-price">
+                                    <span class="product-discount-price">₹4,999.00</span><span
+                                        class="product-original-price">₹9,999.00</span>
+                                </div>
+                                <div class="product-discount-percent">50% Discount</div>
+                                <button class="card-btn"><i class="fas fa-shopping-cart card-btn-icon"></i>Add To
+                                    Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- code-snippet  -->
+                    <pre id="myInput" class="relative scroll-style"><code class="language-html">
+                        &lt;div class=&quot;card card-vertical&quot;&gt;
+                            &lt;div class=&quot;card-text-overlay&quot;&gt;
+                                &lt;span&gt;Out of Stock&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;div class=&quot;card-vertical-image&quot;&gt;
+                                &lt;img src=&quot;../../assests/card-image.jpeg&quot; alt=&quot;watches&quot; class=&quot;card-img&quot;&gt;
+                                &lt;i class=&quot;far fa-heart wishlist-icon&quot;&gt;&lt;/i&gt;
+                            &lt;/div&gt;
+                            &lt;div class=&quot;card-content&quot;&gt;
+                                &lt;div class=&quot;card-heading&quot;&gt;
+                                    &lt;h3&gt;Tag Heuer-CR7&lt;/h3&gt;
+                                    &lt;p&gt;The sports watch for everyday wear, the Tag Heuer CR7 Quartzs Chronograph is a
+                                        superb watch with beautiful styling.&lt;/p&gt;
+                                &lt;/div&gt;
+                                &lt;div class=&quot;card-product-price&quot;&gt;
+                                    &lt;span class=&quot;product-discount-price&quot;&gt;₹4,999.00&lt;/span&gt;&lt;span
+                                        class=&quot;product-original-price&quot;&gt;₹9,999.00&lt;/span&gt;
+                                &lt;/div&gt;
+                                &lt;div class=&quot;product-discount-percent&quot;&gt;50% Discount&lt;/div&gt;
+                                &lt;button class=&quot;card-btn&quot;&gt;&lt;i class=&quot;fas fa-shopping-cart card-btn-icon&quot;&gt;&lt;/i&gt;Add To
+                                    Cart&lt;/button&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        </code><button id="button" class="absolute snippet-btn"><i class="fas fa-copy"></i></button></pre>
+                </div>
+            </section>
+
+            <!-- horizontal card -->
+            <section class="my-7">
+                <div class="component-container flex flex-col">
+                    <div class="component-heading p-2">
+                        <h3 class="font-bold font-size-6">Horizontal Card</h3>
+                    </div>
+                    <div class="component-display flex justify-center p-5">
+                        <div class="card card-horizontal">
+                            <div class="card-horizontal-image">
+                                <img src="../../assests/card-image.jpeg" alt="watches" class="card-img">
+                            </div>
+                            <div class="card-content ">
+                                <div class="card-heading">
+                                    <h3>Tag Heuer-CR7</h3>
+                                </div>
+                                <div class="card-product-price">
+                                    <span class="product-discount-price">₹4,999.00</span><span
+                                        class="product-original-price">₹9,999.00</span>
+                                </div>
+                                <div class="product-discount-percent">50% Discount</div>
+                                <button class="card-btn"><i class="fas fa-shopping-cart card-btn-icon"></i>Add To
+                                    Cart</button>
+                                <button class="card-secondary-btn"></i>Add to Wishlist</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- code-snippet  -->
+                    <pre id="myInput" class="relative scroll-style"><code class="language-html">
+                        &lt;div class=&quot;card card-horizontal&quot;&gt;
+                            &lt;div class=&quot;card-horizontal-image&quot;&gt;
+                                &lt;img src=&quot;../../assests/card-image.jpeg&quot; alt=&quot;watches&quot; class=&quot;card-img&quot;&gt;
+                            &lt;/div&gt;
+                            &lt;div class=&quot;card-content &quot;&gt;
+                                &lt;div class=&quot;card-heading&quot;&gt;
+                                    &lt;h3&gt;Tag Heuer-CR7&lt;/h3&gt;
+                                &lt;/div&gt;
+                                &lt;div class=&quot;card-product-price&quot;&gt;
+                                    &lt;span class=&quot;product-discount-price&quot;&gt;₹4,999.00&lt;/span&gt;&lt;span
+                                        class=&quot;product-original-price&quot;&gt;₹9,999.00&lt;/span&gt;
+                                &lt;/div&gt;
+                                &lt;div class=&quot;product-discount-percent&quot;&gt;50% Discount&lt;/div&gt;
+                                &lt;button class=&quot;card-btn&quot;&gt;&lt;i class=&quot;fas fa-shopping-cart card-btn-icon&quot;&gt;&lt;/i&gt;Add To
+                                    Cart&lt;/button&gt;
+                                &lt;button class=&quot;card-secondary-btn&quot;&gt;&lt;/i&gt;Add to Wishlist&lt;/button&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        </code><button id="button" class="absolute snippet-btn"><i class="fas fa-copy"></i></button></pre>
+                </div>
+            </section>
+            <!-- horizontal card with Shadow -->
+            <section class="my-7">
+                <div class="component-container flex flex-col">
+                    <div class="component-heading p-2">
+                        <h3 class="font-bold font-size-6">Horizontal Card With Shadow</h3>
+                    </div>
+                    <div class="component-display flex justify-center p-5">
+                        <div class="card card-horizontal card-shadow">
+                            <div class="card-horizontal-image">
+                                <img src="../../assests/card-image.jpeg" alt="watches" class="card-img">
+                            </div>
+                            <div class="card-content ">
+                                <div class="card-heading">
+                                    <h3>Tag Heuer-CR7</h3>
+                                </div>
+                                <div class="card-product-price">
+                                    <span class="product-discount-price">₹4,999.00</span><span
+                                        class="product-original-price">₹9,999.00</span>
+                                </div>
+                                <div class="product-discount-percent">50% Discount</div>
+                                <button class="card-btn"><i class="fas fa-shopping-cart card-btn-icon"></i>Add To
+                                    Cart</button>
+                                <button class="card-secondary-btn"></i>Add to Wishlist</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- code-snippet  -->
+                    <pre id="myInput" class="relative scroll-style"><code class="language-html">
+                        &lt;div class=&quot;card card-horizontal card-shadow&quot;&gt;
+                            &lt;div class=&quot;card-horizontal-image&quot;&gt;
+                                &lt;img src=&quot;../../assests/card-image.jpeg&quot; alt=&quot;watches&quot; class=&quot;card-img&quot;&gt;
+                            &lt;/div&gt;
+                            &lt;div class=&quot;card-content &quot;&gt;
+                                &lt;div class=&quot;card-heading&quot;&gt;
+                                    &lt;h3&gt;Tag Heuer-CR7&lt;/h3&gt;
+                                &lt;/div&gt;
+                                &lt;div class=&quot;card-product-price&quot;&gt;
+                                    &lt;span class=&quot;product-discount-price&quot;&gt;₹4,999.00&lt;/span&gt;&lt;span
+                                        class=&quot;product-original-price&quot;&gt;₹9,999.00&lt;/span&gt;
+                                &lt;/div&gt;
+                                &lt;div class=&quot;product-discount-percent&quot;&gt;50% Discount&lt;/div&gt;
+                                &lt;button class=&quot;card-btn&quot;&gt;&lt;i class=&quot;fas fa-shopping-cart card-btn-icon&quot;&gt;&lt;/i&gt;Add To
+                                    Cart&lt;/button&gt;
+                                &lt;button class=&quot;card-secondary-btn&quot;&gt;&lt;/i&gt;Add to Wishlist&lt;/button&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        </code><button id="button" class="absolute snippet-btn"><i class="fas fa-copy"></i></button></pre>
+                </div>
+            </section>
+
+            <!-- Text Only Card -->
+            <section class="my-7">
+                <div class="component-container flex flex-col">
+                    <div class="component-heading p-2">
+                        <h3 class="font-bold font-size-6">Card with Only Text</h3>
+                    </div>
+                    <!-- Vertical Card -->
+                    <div class="component-display flex justify-center p-5">
+                        <div class="card card-vertical">
+                            <div class="card-content">
+                                <div class="card-heading">
+                                    <h3>Tag Heuer-CR7</h3>
+                                    <p>The sports watch for everyday wear, the Tag Heuer CR7 Quartzs Chronograph is a
+                                        superb watch with beautiful styling.</p>
+                                </div>
+                                <div class="card-product-price">
+                                    <span class="product-discount-price">₹4,999.00</span><span
+                                        class="product-original-price">₹9,999.00</span>
+                                </div>
+                                <div class="product-discount-percent">50% Discount</div>
+                                <button class="card-btn"><i class="fas fa-shopping-cart card-btn-icon"></i>Add To
+                                    Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- code-snippet  -->
+                    <pre id="myInput" class="relative scroll-style"><code class="language-html">
+                        &lt;div class=&quot;card card-vertical&quot;&gt;
+                            &lt;div class=&quot;card-content&quot;&gt;
+                                &lt;div class=&quot;card-heading&quot;&gt;
+                                    &lt;h3&gt;Tag Heuer-CR7&lt;/h3&gt;
+                                    &lt;p&gt;The sports watch for everyday wear, the Tag Heuer CR7 Quartzs Chronograph is a
+                                        superb watch with beautiful styling.&lt;/p&gt;
+                                &lt;/div&gt;
+                                &lt;div class=&quot;card-product-price&quot;&gt;
+                                    &lt;span class=&quot;product-discount-price&quot;&gt;₹4,999.00&lt;/span&gt;&lt;span
+                                        class=&quot;product-original-price&quot;&gt;₹9,999.00&lt;/span&gt;
+                                &lt;/div&gt;
+                                &lt;div class=&quot;product-discount-percent&quot;&gt;50% Discount&lt;/div&gt;
+                                &lt;button class=&quot;card-btn&quot;&gt;&lt;i class=&quot;fas fa-shopping-cart card-btn-icon&quot;&gt;&lt;/i&gt;Add To
+                                    Cart&lt;/button&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        </code><button id="button" class="absolute snippet-btn"><i class="fas fa-copy"></i></button></pre>
+                </div>
+            </section>
+        </div>
+        <div id="copiedSnackbar" class="absolute font-ml">Copied!</div>
+    </div>
+
+    <!-- navbar and snippet scripts -->
+    <script src="../../script/navigation.js"></script>
+    <script src="../../script/snippet.js"></script>
+    <!-- highlight js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"
+        integrity="sha512-IaaKO80nPNs5j+VLxd42eK/7sYuXQmr+fyywCNA0e+C6gtQnuCXNtORe9xR4LqGPz5U9VpH+ff41wKs/ZmC3iA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+</body>
+
+</html>

@@ -19,36 +19,41 @@
     <section class="section-center">
         <!-- navbar -->
         <nav class="navbar flex items-center justify-between pt-1 section-center z-5">
-            <a class="humburger-icon icon-open text-lg"><i class="fas fa-bars ml-5"></i></a>
-            <a class="humburger-icon icon-close text-lg displayNone"><i class="fas fa-bars ml-5"></i></a>
+            <a class="humburger-icon icon-open font-size-6"><i class="fas fa-bars ml-5"></i></a>
+            <a class="humburger-icon icon-close font-size-6 displayNone"><i class="fas fa-bars ml-5"></i></a>
             <a href="../../index.html" class="mr-5"><img src="../../assests/logo-primary.png" alt="NOMARK" class="nomark-logo"></a>
         </nav>
         <!-- side-bar -->
         <div class="sidebar sidebarRemove flex flex-col scroll-style z-4 pr-7 p-2">
-            <h3 class="sidebar-heading text-lg">Getting Started</h3>
+            <h3 class="sidebar-heading font-size-5">Getting Started</h3>
             <ul>
                 <li><a href="../../documentation/doc.html" class="sidebar-items">Installation</a></li>
             </ul>
-            <h3 class="sidebar-heading text-lg">Components</h3>
+            <h3 class="sidebar-heading font-size-5">Components</h3>
             <ul>
                 <li><a href="./avatar.html" class="sidebar-items active">Avatar</a></li>
-                <li><a href="" class="sidebar-items">Alert</a></li>
+                <li><a href="../alert/alert.html" class="sidebar-items">Alert</a></li>
                 <li><a href="../badge/badge.html" class="sidebar-items">Badge</a></li>
-                <li><a href="" class="sidebar-items">Button</a></li>
-                <li><a href="" class="sidebar-items">Card</a></li>
-                <li><a href="" class="sidebar-items">Modal</a></li>
+                <li><a href="../button/button.html" class="sidebar-items">Button</a></li>
+                <li><a href="../card/card.html" class="sidebar-items">Card</a></li>
+                <li><a href="../image/image.html" class="sidebar-items">Image</a></li>
+                <li><a href="../input/input.html" class="sidebar-items">Input</a></li>
+                <li><a href="../typography/typography.html" class="sidebar-items">Typography</a></li>
+                <li><a href="../list/list.html" class="sidebar-items">Lists</a></li>
+                <li><a href="../navigation/navigation.html" class="sidebar-items">Navigation</a></li>
             </ul>
         </div>
         <!-- Square Avatar -->
         <main class="click-remove my-7">
             <div class="m-2">
-                <h2 class="text-xl font-bolder">Avatar</h2>
-                <p class="text-ml py-5">Avatar is used to represent the users profile picture.</p>
+                <h2 class="font-size-8 font-bolder">Avatar</h2>
+                <p class="font-size-5 py-5">Avatar is used to represent the users profile picture.</p>
             </div>
             <div class="component-container flex flex-col">
                 <div class="component-heading p-2">
-                <h3 class="font-bold text-lg">Square Avatar</h3>
-                <p>Square Avatar has 5 different sizes you can use avatar-sm for small image, avatar-md for medium, avatar-lg for large and so onn. </p>
+                <h3 class="font-bold font-size-6">Square Avatar</h3>
+                <p>Square Avatar has 5 different. To use the avatar add any of this classes required.</p>
+                <p><strong class="font-bold"> avatar-sm for small image, avatar-md for medium, avatar-lg for large and so on</strong>. </p>
             </div>
                 <div class="component-display flex justify-center p-5">
                     <figure>
@@ -68,22 +73,27 @@
                     </figure>
                 </div>
                 <!-- code-snippet  -->
-                <pre id="myInput" class="relative scroll-style">
-                        <code class="language-html"> &lt;figure&gt;
-                            &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;&quot; class=&quot;avatar-sm m-4&quot;&gt;
-                        &lt;/figure&gt;
-                        &lt;figure&gt;
-                            &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;&quot; class=&quot;avatar-md m-4&quot;&gt;
-                        &lt;/figure&gt;
-                        &lt;figure&gt;
-                            &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;&quot; class=&quot;avatar-lg m-4&quot;&gt;
-                        &lt;/figure&gt;
-                        &lt;figure&gt;
-                            &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;&quot; class=&quot;avatar-xl m-4&quot;&gt;
-                        &lt;/figure&gt;
-                        &lt;figure&gt;
-                            &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;&quot; class=&quot;avatar-xxl m-4&quot;&gt;
-                        &lt;/figure&gt;
+                <pre id="myInput" class="relative scroll-style"><code class="language-html">
+        // Avatar Small Size
+        &lt;figure&gt;
+            &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;avatar&quot; class=&quot;avatar-sm&quot;&gt;
+        &lt;/figure&gt;
+        // Avatar Medium Size
+        &lt;figure&gt;
+            &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;avatar&quot; class=&quot;avatar-md&quot;&gt;
+        &lt;/figure&gt;
+        // Avatar Large Size
+        &lt;figure&gt;
+            &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;avatar&quot; class=&quot;avatar-lg&quot;&gt;
+        &lt;/figure&gt;
+        // Avatar Extra Large Size
+        &lt;figure&gt;
+            &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;avatar&quot; class=&quot;avatar-xl&quot;&gt;
+        &lt;/figure&gt;
+        // Avatra XX Large Size
+        &lt;figure&gt;
+            &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;avatar&quot; class=&quot;avatar-xxl&quot;&gt;
+        &lt;/figure&gt;
                         </code><button id="button" class="absolute snippet-btn"><i class="fas fa-copy"></i></button></pre>
             </div>
         </main>
@@ -91,45 +101,50 @@
         <main class="click-remove my-7">
             <div class="component-container flex flex-col">
                 <div class="component-heading p-2">
-                    <h3 class="font-bold text-lg">Round Avatar</h3>
-                    <p>Round Avatar has also 5 sizes.To make the square avatar to round you can use image-round class in image tag.</p>
+                    <h3 class="font-bold font-size-6">Round Avatar</h3>
+                    <p>Round Avatar has also 5 sizes.To make the square avatar to round use <strong class="font-bold">border-round </strong>class in image tag.</p>
                 </div>
                 <div class="component-display flex justify-center p-5">
                     <figure>
-                        <img src="../../assests/avatar.jpg" alt="avatar" class="avatar-sm image-round m-4">
+                        <img src="../../assests/avatar.jpg" alt="avatar" class="avatar-sm border-round m-4">
                     </figure>
                     <figure>
-                        <img src="../../assests/avatar.jpg" alt="avatar" class="avatar-md image-round m-4">
+                        <img src="../../assests/avatar.jpg" alt="avatar" class="avatar-md border-round m-4">
                     </figure>
                     <figure>
-                        <img src="../../assests/avatar.jpg" alt="avatar" class="avatar-lg image-round m-4">
+                        <img src="../../assests/avatar.jpg" alt="avatar" class="avatar-lg border-round m-4">
                     </figure>
                     <figure>
-                        <img src="../../assests/avatar.jpg" alt="avatar" class="avatar-xl image-round m-4">
+                        <img src="../../assests/avatar.jpg" alt="avatar" class="avatar-xl border-round m-4">
                     </figure>
                     <figure>
-                        <img src="../../assests/avatar.jpg" alt="avatar" class="avatar-xxl image-round m-4">
+                        <img src="../../assests/avatar.jpg" alt="avatar" class="avatar-xxl border-round m-4">
                     </figure>
                 </div>
 
                 <!-- code-snippet  -->
-                <pre id="myInput" class="relative scroll-style">
-                        <code class="language-html">&lt;figure&gt;
-                            &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;&quot; class=&quot;avatar-sm image-round m-4&quot;&gt;
-                        &lt;/figure&gt;
-                        &lt;figure&gt;
-                            &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;&quot; class=&quot;avatar-md image-round m-4&quot;&gt;
-                        &lt;/figure&gt;
-                        &lt;figure&gt;
-                            &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;&quot; class=&quot;avatar-lg image-round m-4&quot;&gt;
-                        &lt;/figure&gt;
-                        &lt;figure&gt;
-                            &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;&quot; class=&quot;avatar-xl image-round m-4&quot;&gt;
-                        &lt;/figure&gt;
-                        &lt;figure&gt;
-                            &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;&quot; class=&quot;avatar-xxl image-round m-4&quot;&gt;
-                        &lt;/figure&gt;
-                        </code><button id="button" class="absolute snippet-btn"><i class="fas fa-copy"></i></button></pre>
+                <pre id="myInput" class="relative scroll-style"><code class="language-html">
+        // Round Avatar Small Size
+        &lt;figure&gt;
+            &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;avatar&quot; class=&quot;avatar-sm border-round&quot;&gt;
+        &lt;/figure&gt;
+        // Round Avatar Medium Size
+        &lt;figure&gt;
+            &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;avatar&quot; class=&quot;avatar-md border-round&quot;&gt;
+        &lt;/figure&gt;
+        // Round Avatar Large Size
+        &lt;figure&gt;
+            &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;avatar&quot; class=&quot;avatar-lg border-round&quot;&gt;
+        &lt;/figure&gt;
+        // Round Avatar Extra Large Size
+        &lt;figure&gt;
+            &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;avatar&quot; class=&quot;avatar-xl border-round&quot;&gt;
+        &lt;/figure&gt;
+        // Round Avatar XX Large Size
+        &lt;figure&gt;
+            &lt;img src=&quot;/assests/avatar.jpg&quot; alt=&quot;avatar&quot; class=&quot;avatar-xxl border-round&quot;&gt;
+        &lt;/figure&gt;
+        </code><button id="button" class="absolute snippet-btn"><i class="fas fa-copy"></i></button></pre>
             </div>
         </main>
         <div id="copiedSnackbar" class="absolute font-ml">Copied!</div>
