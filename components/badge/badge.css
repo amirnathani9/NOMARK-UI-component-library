@@ -40,15 +40,22 @@
     border: 2px solid var(--bg-color-3); 
 }
 /* badge color */
-.offline-badge{
+.offline-badge-color{
     background-color: var(--offline-color);
     color: var(--text-color-1);
 }
-.online-badge{
+.online-badge-color{
     background-color: var(--online-color);
     color: var(--text-color-1);
 }
-
+.primary-badge-color{
+    background-color: var(--primary-color);
+    color: var(--text-color-1);
+}
+.secondary-badge-color{
+    background-color: var(--secondary-color);
+    color: var(--text-color-1);
+}
 /* position of badges on round image or icon */
 .badge-position-round-br{
     right: 0px;
