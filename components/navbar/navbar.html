@@ -12,6 +12,7 @@
     <!-- External Imports -->
     <link rel="stylesheet" href="./navbar.css">
     <link rel="stylesheet" href="../../styles/main.css">
+    <link rel="stylesheet" href="../badge/badge.css">
 
 </head>
 
@@ -54,10 +55,25 @@
                 <div class="component-container flex flex-col">
                     <div class="component-heading p-2">
                         <h3 class="font-bold font-size-6"></h3>
-                        
+
                     </div>
                     <div class="component-display flex justify-center p-5">
-                        
+                        <nav class="navbar-container z-5">
+                            <div class="navbar-logo-container">
+                                <a href="./index.html"><img src="../../assests/logo-primary.png" alt="logo" class="navbar-logo"></a>
+                            </div>
+                            <div class="navbar-items-container">
+                                <div class="navbar-search-container">
+                                    <input type="text" class="navbar-search" />
+                                    <i class="fas fa-search navbar-search-btn"></i>
+                                </div>
+                                <ul class="navbar-links">
+                                    <li><a href="./navbar.html"><i class="fas fa-user"></i>Account</a></li>
+                                    <li><a href="./navbar.html"><i class="fas fa-heart"></i>Wishlist</a></li>
+                                    <li><a href="./navbar.html"><i class="fas fa-shopping-cart"></i>Cart</a></li>
+                                </ul>
+                            </div>
+                        </nav>
                     </div>
                     <!-- code-snippet  -->
                     <pre id="myInput" class="relative scroll-style"><code class="language-html">
