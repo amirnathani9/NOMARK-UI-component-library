@@ -103,6 +103,7 @@
                         <h3 class="font-bold font-size-6">Responsive Navbar</h3>
                         <p>Responsive navbar is compatable with all devices. If screen sizes decreases the nav menu will store in the humburger icon.</p>
                         <p>To see the responsiveness decrease the size of the screen.</p>
+                        <p>To use this navbar copy the below html code and javascript also</p>
                     </div>
                     <div class="component-display flex justify-center p-5">
                         <nav class="navbar-container z-3">
@@ -123,6 +124,9 @@
                                 </ul>
                             </div>
                         </nav>
+                    </div>
+                    <div class="component-heading p-2">
+                        <p class="font-bold font-size-4">HTML</p>
                     </div>
                     <!-- code-snippet  -->
                     <pre id="myInput" class="relative scroll-style"><code class="language-html">
@@ -145,6 +149,27 @@
             &lt;/div&gt;
         &lt;/nav&gt;
                         </code><button id="button" class="absolute snippet-btn"><i class="fas fa-copy"></i></button></pre>
+                        <div class="component-heading p-2">
+                            <p class="font-bold font-size-4">JavaScript</p>
+                        </div>
+                        <pre id="myInput" class="relative scroll-style"><code class="javascript">
+        const openMenu = document.querySelector(".open-menu")
+        const closeMenu = document.querySelector(".close-menu")
+        const mainMenu = document.querySelector(".navbar-items-container")
+
+        openMenu.addEventListener("click",()=>{
+            openMenu.style.display = "none"
+            closeMenu.style.display = "block"
+            mainMenu.style.display = "flex"
+            mainMenu.style.top = "74px"
+        })
+        
+        closeMenu.addEventListener("click",()=>{
+            closeMenu.style.display = "none"
+            openMenu.style.display = "block"
+            mainMenu.style.top = '-100%';
+        })
+                            </code><button id="button" class="absolute snippet-btn"><i class="fas fa-copy"></i></button></pre>
                 </div>
             </section>
         </div>
