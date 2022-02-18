@@ -67,14 +67,16 @@
     color: var(--text-color-1);
 }
 
-/* responsive */
+/* humburger buttons */
 .open-menu {
     display: none;
     visibility: hidden;
+    color: var(--primary-color);
 }
 .close-menu {
     display: none;
     visibility: hidden;
+    color: var(--primary-color);
 }
 
 @media only screen and (max-width: 900px) {
@@ -95,7 +97,6 @@
         top: -100%;
         right: 0;
         left: 0;
-        z-index: 5;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
@@ -105,10 +106,11 @@
     .navbar-search-container{
         width: 90%;
         padding: 0.5rem;
-        margin: 3rem 1rem;
+        margin: 2rem 1rem 1rem 1rem;
     } 
     .navbar-links{
         display: flex;
+        width: fit-content;
         flex-direction: column;
         align-items: flex-start;
     }
