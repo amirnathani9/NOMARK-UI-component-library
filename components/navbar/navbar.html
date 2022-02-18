@@ -49,13 +49,13 @@
         <div class="click-remove">
             <section class="my-7">
                 <div class="m-2">
-                    <h2 class="font-size-8 font-bolder">Basic Navbar</h2>
-                    <p class="font-size-5 py-5"></p>
+                    <h2 class="font-size-8 font-bolder">Navbar</h2>
+                    <p class="font-size-5 py-5">Navigation bar is used to navigate through the web apps or websites.</p>
                 </div>
                 <div class="component-container flex flex-col">
                     <div class="component-heading p-2">
-                        <h3 class="font-bold font-size-6"></h3>
-
+                        <h3 class="font-bold font-size-6">Basic Navbar</h3>
+                        <p>Basic Navbar is used only for the desktop or tablet devices. It is not responsive for mobile devices</p>
                     </div>
                     <div class="component-display flex justify-center p-5">
                         <nav class="navbar-container z-3">
@@ -77,7 +77,22 @@
                     </div>
                     <!-- code-snippet  -->
                     <pre id="myInput" class="relative scroll-style"><code class="language-html">
-        
+        &lt;nav class=&quot;navbar-container fixed z-5&quot;&gt;
+            &lt;div class=&quot;navbar-logo-container&quot;&gt;
+                &lt;a href=&quot;./index.html&quot;&gt;&lt;img src=&quot;../../assests/logo-primary.png&quot; alt=&quot;logo&quot; class=&quot;navbar-logo&quot;&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;navbar-items-container&quot;&gt;
+                &lt;div class=&quot;navbar-search-container&quot;&gt;
+                    &lt;input type=&quot;text&quot; class=&quot;navbar-search&quot; /&gt;
+                    &lt;i class=&quot;fas fa-search navbar-search-btn&quot;&gt;&lt;/i&gt;
+                &lt;/div&gt;
+                &lt;ul class=&quot;navbar-links&quot;&gt;
+                    &lt;li&gt;&lt;a href=&quot;./navbar.html&quot;&gt;&lt;i class=&quot;fas fa-user&quot;&gt;&lt;/i&gt;Account&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;./navbar.html&quot;&gt;&lt;i class=&quot;fas fa-heart&quot;&gt;&lt;/i&gt;Wishlist&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;./navbar.html&quot;&gt;&lt;i class=&quot;fas fa-shopping-cart&quot;&gt;&lt;/i&gt;Cart&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+        &lt;/nav&gt;
                         </code><button id="button" class="absolute snippet-btn"><i class="fas fa-copy"></i></button></pre>
                 </div>
             </section>
@@ -85,7 +100,9 @@
             <section class="my-7">
                 <div class="component-container flex flex-col">
                     <div class="component-heading p-2">
-                        <h3 class="font-bold font-size-6"></h3>
+                        <h3 class="font-bold font-size-6">Responsive Navbar</h3>
+                        <p>Responsive navbar is compatable with all devices. If screen sizes decreases the nav menu will store in the humburger icon.</p>
+                        <p>To see the responsiveness decrease the size of the screen.</p>
                     </div>
                     <div class="component-display flex justify-center p-5">
                         <nav class="navbar-container z-3">
@@ -108,9 +125,25 @@
                         </nav>
                     </div>
                     <!-- code-snippet  -->
-                    <pre id="myInput"
-                        class="relative scroll-style"><code class="language-html">
-        
+                    <pre id="myInput" class="relative scroll-style"><code class="language-html">
+        &lt;nav class=&quot;navbar-container fixed z-5&quot;&gt;
+        &lt;div class=&quot;navbar-logo-container&quot;&gt;
+            &lt;a href=&quot;./index.html&quot;&gt;&lt;img src=&quot;../../assests/logo-primary.png&quot; alt=&quot;logo&quot; class=&quot;navbar-logo&quot;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;a class=&quot;open-menu font-size-6&quot;&gt;&lt;i class=&quot;fas fa-bars&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;a class=&quot;close-menu font-size-6&quot;&gt;&lt;i class=&quot;fa fa-times&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;div class=&quot;navbar-items-container&quot;&gt;
+            &lt;div class=&quot;navbar-search-container&quot;&gt;
+                &lt;input type=&quot;text&quot; class=&quot;navbar-search&quot; /&gt;
+                &lt;i class=&quot;fas fa-search navbar-search-btn&quot;&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;ul class=&quot;navbar-links&quot;&gt;
+                    &lt;li&gt;&lt;a href=&quot;./navbar.html&quot;&gt;&lt;i class=&quot;fas fa-user&quot;&gt;&lt;/i&gt;Account&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;./navbar.html&quot;&gt;&lt;i class=&quot;fas fa-heart&quot;&gt;&lt;/i&gt;Wishlist&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;./navbar.html&quot;&gt;&lt;i class=&quot;fas fa-shopping-cart&quot;&gt;&lt;/i&gt;Cart&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+        &lt;/nav&gt;
                         </code><button id="button" class="absolute snippet-btn"><i class="fas fa-copy"></i></button></pre>
                 </div>
             </section>
