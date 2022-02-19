@@ -3,12 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap'); 
 
 /*************** Component Imports ***************/
-@import "./reset.css";
-@import "./utility.css";
-@import "./variable.css";
-@import "./navigation.css";
-@import "./common.css";
-@import "./snippet.css";
 @import "../components/alert/alert.css";
 @import "../components/avatar/avatar.css";
 @import "../components/badge/badge.css";
@@ -19,3 +13,7 @@
 @import "../components/list/list.css";
 @import "../components/typography/typography.css";
 @import "../components/navbar/navbar.css";
+@import "./reset.css";
+@import "./utility.css";
+@import "./variable.css";
+@import "./common.css";
