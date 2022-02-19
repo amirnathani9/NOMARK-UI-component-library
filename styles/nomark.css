@@ -1,3 +1,9 @@
+@import "./reset.css";
+@import "./utility.css";
+@import "./variable.css";
+@import "./navigation.css";
+@import "./common.css";
+@import "./snippet.css";
 @import "../components/alert/alert.css";
 @import "../components/avatar/avatar.css";
 @import "../components/badge/badge.css";
