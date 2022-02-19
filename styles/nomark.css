@@ -13,7 +13,7 @@
 @import "../components/list/list.css";
 @import "../components/typography/typography.css";
 @import "../components/navbar/navbar.css";
-@import "./reset.css";
-@import "./utility.css";
 @import "./variable.css";
 @import "./common.css";
+@import "./reset.css";
+@import "./utility.css";
