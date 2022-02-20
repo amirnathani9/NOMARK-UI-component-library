@@ -1,0 +1,10 @@
+.text-gray{
+    color: var(--gray-dark-color);
+}
+.alignment-container{
+    padding: 1rem 0.25rem;
+    background-color: var(--secondary-color);
+    width: 50rem;
+    max-width: 100%;
+    line-height: 1.8;
+}

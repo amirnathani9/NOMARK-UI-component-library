@@ -1,0 +1,19 @@
+/*************** Internal Imports ***************/
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap'); 
+
+/*************** Component Imports ***************/
+@import "../components/alert/alert.css";
+@import "../components/avatar/avatar.css";
+@import "../components/badge/badge.css";
+@import "../components/button/button.css";
+@import "../components/card/card.css";
+@import "../components/image/image.css";
+@import "../components/input/input.css";
+@import "../components/list/list.css";
+@import "../components/typography/typography.css";
+@import "../components/navbar/navbar.css";
+@import "./variable.css";
+@import "./common.css";
+@import "./reset.css";
+@import "./utility.css";

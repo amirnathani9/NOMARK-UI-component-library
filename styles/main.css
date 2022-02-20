@@ -2,7 +2,7 @@
 /*************** External Imports ***************/
 @import url('https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/icy-dark.min.css');
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css";
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap'); /* font-family: 'Montserrat', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap'); /* font-family: 'Montserrat', sans-serif; */
 /*************** Component Imports ***************/
 
 @import "./reset.css";
@@ -11,6 +11,5 @@
 @import "./navigation.css";
 @import "./common.css";
 @import "./snippet.css";
-@import "/components/avatar/avatar.css"
 
 

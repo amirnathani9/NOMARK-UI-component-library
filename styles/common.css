@@ -39,12 +39,17 @@
 
 /* to make a image round */
 
-.image-round{
-  border-radius: 50%;
+.border-round{
+    max-width: 100%;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
 }
 
 .display-item-center{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.fit-content{
+  width: fit-content;
 }

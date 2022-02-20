@@ -20,36 +20,44 @@
 <body>
     <section class="section-center">
         <nav class="navbar flex items-center justify-between pt-1 section-center z-5">
-            <a class="humburger-icon icon-open text-lg"><i class="fas fa-bars ml-5"></i></a>
-            <a class="humburger-icon icon-close text-lg displayNone"><i class="fas fa-bars ml-5"></i></a>
+            <a class="humburger-icon icon-open font-size-6"><i class="fas fa-bars ml-5"></i></a>
+            <a class="humburger-icon icon-close font-size-6 displayNone"><i class="fas fa-bars ml-5"></i></a>
             <a href="../index.html" class="mr-5"><img src="../assests/logo-primary.png" alt="NOMARK" class="nomark-logo"></a>
         </nav>
 
         <div class="sidebar sidebarRemove flex flex-col scroll-style z-4 pr-7 p-2">
-            <h3 class="sidebar-heading text-lg">Getting Started</h3>
+            <h3 class="sidebar-heading font-size-5">Getting Started</h3>
             <ul>
                 <li><a href="./doc.html" class="sidebar-items active">Installation</a></li>
             </ul>
-            <h3 class="sidebar-heading text-lg">Components</h3>
+            <h3 class="sidebar-heading font-size-5">Components</h3>
             <ul>
                 <li><a href="../components/avatar/avatar.html" class="sidebar-items">Avatar</a></li>
-                <li><a href="" class="sidebar-items">Alert</a></li>
+                <li><a href="../components/alert/alert.html" class="sidebar-items">Alert</a></li>
                 <li><a href="../components/badge/badge.html" class="sidebar-items">Badge</a></li>
-                <li><a href="" class="sidebar-items">Button</a></li>
-                <li><a href="" class="sidebar-items">Card</a></li>
-                <li><a href="" class="sidebar-items">Modal</a></li>
+                <li><a href="../components/button/button.html" class="sidebar-items">Button</a></li>
+                <li><a href="../components/card/card.html" class="sidebar-items">Card</a></li>
+                <li><a href="../components/image/image.html" class="sidebar-items">Image</a></li>
+                <li><a href="../components/input/input.html" class="sidebar-items">Input</a></li>
+                <li><a href="../components/typography/typography.html" class="sidebar-items">Typography</a></li>
+                <li><a href="../components/list/list.html" class="sidebar-items">Lists</a></li>
+                <li><a href="../components/navbar/navbar.html" class="sidebar-items">Navigation</a></li>
             </ul>
         </div>
 
         <main class="click-remove">
-            <h2 class="text-xl m-3">Installation</h2>
-            <p class="text-ml m-3 py-5">To use the NOMARK Component Library you have to follow the below steps</p>
+            <div class="m-3">
+                <h2 class="font-size-8">Installation</h2>
+                <p class="font-size-5 py-5">To use the NOMARK Component Library you have to follow the below steps</p>
+            </div>
             <div class="component-container flex flex-col">
-                <h3 class="headline p-7 font-bold">Link the below code in your HTML file</h3>
+                <div class="component-heading p-2">
+                    <h3 class="font-bold font-size-5">Link the below code in your HTML file</h3>
+                </div>
                     <!-- code-snippet  -->
-                <pre id="myInput" class="relative">
-                        <code class="language-html">&lt;link rel="stylesheet" href="/styles/main.css"&gt;
-                        </code><button id="button" class="absolute snippet-btn"><i class="fas fa-copy"></i></button></pre>  
+                <pre id="myInput" class="relative"><code class="language-html">
+        &lt;link rel="stylesheet" href="https://nomark-ui.netlify.app/styles/nomark.css"&gt;
+                    </code><button id="button" class="absolute snippet-btn"><i class="fas fa-copy"></i></button></pre>  
             </div>
         </main>
         <div id="copiedSnackbar" class="absolute font-ml">Copied!</div>
