@@ -21,6 +21,12 @@
     background: var(--secondary-color);
   }
 
+/* main heading */
+.main-heading-container{
+  line-height: 2;
+  font-weight: 500;
+}
+
 /* component container */
 
 .component-container{
