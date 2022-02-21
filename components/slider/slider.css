@@ -1,0 +1,11 @@
+.range-slider-container{
+    display: flex;
+    align-items: center;
+}
+
+.slider-label{
+    color: var(--primary-color);
+    font-size: 1.25rem;
+    padding: 0rem 0.75rem;
+    font-weight: bold;
+}
