@@ -6,7 +6,7 @@ openMenu.addEventListener("click",()=>{
     openMenu.style.display = "none"
     closeMenu.style.display = "block"
     mainMenu.style.display = "flex"
-    mainMenu.style.top = "73px"
+    mainMenu.style.top = "0px"
 })
 
 closeMenu.addEventListener("click",()=>{

@@ -114,6 +114,7 @@
         align-items: center;
         background: var(--bg-color-1);
         transition: top 1s ease;
+        padding-top: 20%;
     }
 
     .navbar-search-container{
