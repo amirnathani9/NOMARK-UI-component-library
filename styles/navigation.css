@@ -28,6 +28,7 @@
     overflow-x: hidden;
     overflow-y: scroll;
     scroll-behavior: smooth;
+    padding-bottom: 6rem;
 }
 
 .sidebar-heading,

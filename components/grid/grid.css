@@ -1,0 +1,17 @@
+.grid{
+    display: grid;
+    grid-column-gap: 2rem;
+}
+.grid-col-two{
+    grid-template-columns: repeat(2,1fr);
+}
+.grid-col-three{
+    grid-template-columns: repeat(3,1fr);
+}
+.grid-item{
+    background-color: var(--primary-color);
+    height: 5rem;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
