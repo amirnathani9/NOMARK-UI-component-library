@@ -120,7 +120,7 @@ Open project
   - Card with shadow
   - Card with Text Only
 
-- [Image](https://nomark-ui.netlify.app/components/image/image.htmll)
+- [Image](https://nomark-ui.netlify.app/components/image/image.html)
 
   - Responsive Image
     - Round Image
