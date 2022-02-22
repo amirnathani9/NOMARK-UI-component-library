@@ -166,13 +166,13 @@ Open project
     - Slider with Icon
 
 - [Toast](https://nomark-ui.netlify.app/components/toast/toast.html)
-      - Primary Toast
-      - Success Toast
-      - Warning Toast
-      - Danger Toast
+    - Primary Toast
+    - Success Toast
+    - Warning Toast
+    - Danger Toast
  
 - [Rating](https://nomark-ui.netlify.app/components/rating/rating.html)
-      - Dynamic Rating
+    - Dynamic Rating
 
 
 
