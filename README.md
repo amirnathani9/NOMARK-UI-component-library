@@ -4,8 +4,8 @@
 ## NOMARK-UI is easy, fast and lightweight component library to start building your webpages.
 
 
-
 ## Demo
+
 
 ### Live link   
 [![Version](https://img.shields.io/badge/NOMARKUI-v1.0.0-blue)](https://nomark-ui.netlify.app/index.html)
@@ -13,6 +13,7 @@
 
 ### Demo Video
 
+https://user-images.githubusercontent.com/47810774/155231169-aa837e31-46cf-424d-a22a-bb49eb147582.mp4
 
 ## Tech Stack
 
@@ -163,6 +164,15 @@ Open project
     - Simple Slider
     - Slider with Value
     - Slider with Icon
+
+- [Toast](https://nomark-ui.netlify.app/components/toast/toast.html)
+      - Primary Toast
+      - Success Toast
+      - Warning Toast
+      - Danger Toast
+ 
+- [Rating](https://nomark-ui.netlify.app/components/rating/rating.html)
+      - Dynamic Rating
 
 
 
